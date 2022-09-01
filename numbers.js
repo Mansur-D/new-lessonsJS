@@ -4,9 +4,9 @@ let yearOfBirth = 1996;
 //год рождения;
 let numberOfBirth = 13 //(without a zero at the beginning);
 //число рождения (без нолика в начале);
-let numberOfSiblings = 1;
+let numberOfSiblings1 = 1;
 //количество родных братьев;
-let numberOfSiblings = 2;
+let numberOfSiblings2 = 2;
 //количество родных сестер;
 let numberOfPeopleInTheFamily = 6;
 //количество человек в семье;
@@ -20,3 +20,26 @@ let euroExchangeRate = 59.8;
 //курс евро;
 let bitcoinExchangeRate = 19875;
 //курс биткоина;
+
+let currentYearMinusTheYearOfBirth = currentYear - yearOfBirth;
+    // текущий год минус год рождения;
+let currentYearMinusYourAge = currentYear - yourAge;
+//текущий год минус твой возраст;
+let theNumberOfSiblingsPlusTheNumberOfSiblings = numberOfSiblings1 + numberOfSiblings2;
+//количество родных братьев плюс количество родных сестер;
+let euroExchangeRateMultipliedBy1000 = euroExchangeRate * 1000;
+//курс евро умноженный на 1000;
+let dollarExchangeRateMultipliedBy2celih5 = dollarExchangeRate * 2.5;
+//курс доллара умноженный на 2.5;
+let bitcoinExchangeRateDividedBy10000 = bitcoinExchangeRate / 1000;
+//курс биткоина разделенный на 10000;
+let theCostOfTravelToThePlaceOfStudyDividedByTheDollarRate = theCostOfTravelToThePlaceOfStudy / dollarExchangeRate;
+//стоимость проезда до места обучения разделенная на курс доллара;
+let theNumberOfPeopleInTheFamilyMinusTheNumberOfBrothersMinusTheNumberOfSisters = numberOfPeopleInTheFamily - numberOfSiblings1 - numberOfSiblings2;
+//количество человек в семье минус количество братьев минус количество сестер;
+let nullDividedByYourAge = 0 / yourAge;
+//0 деленный на твой возраст;
+let thirtyFaveMinusYourAge = 35 - yourAge;
+//35 минус твой возраст;
+
+
